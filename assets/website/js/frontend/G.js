@@ -49,10 +49,19 @@
     		};
     		return re
     	},
-    	
         //初始化操作
         init: function (page_code) {
+			switch(page_code)
+			{
+				case 'index':
+				case 'category':
+					
+					break;
 
+				case 'detail':
+					
+					break;
+			}
         },
     };
 
